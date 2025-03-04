@@ -11,8 +11,8 @@ My journey in computer science has led me to develop a passion for cybersecurity
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
+| SIEM Implementation and Log Analysis          | <a href="https://github.com/DOXX1011/Cybersecurity-Project-Labs/tree/main/Detection%20Lab">Detection Lab</a>|
+| Network Traffic Monitoring and Attack Detection | <a href="https://github.com/DOXX1011/Cybersecurity-Project-Labs/tree/main/Detection%20Lab">Detection Lab</a>|
 
 ## Tools
 
