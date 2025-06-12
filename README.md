@@ -37,7 +37,6 @@ My journey in computer science has led me to develop a passion for cybersecurity
 </div>
 
 ## Certifications
-[Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
 <div>
 <img src="https://img.shields.io/badge/-TCM%20Security%20Academy-FF1493?&style=for-the-badge&logo=Hack-The-Box&logoColor=white"/>
 </div>
