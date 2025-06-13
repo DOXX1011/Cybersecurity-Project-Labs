@@ -27,3 +27,12 @@ git clone https://github.com/yourusername/FIMbyDOXX1011.git
 cd FIMbyDOXX1011
 pip install -r requirements.txt
 python fim_gui.py
+```
+## ⚙️ Gmail Setup
+
+Edit the following variables in the script:
+```bash
+EMAIL_SENDER = "your_email@gmail.com"
+EMAIL_PASSWORD = "your_app_password"
+EMAIL_RECEIVER = "recipient_email@gmail.com"
+```
