@@ -29,10 +29,7 @@ The lab was based on a small segmented network with:
 - Internal Kali attacker
 - External Kali attacker
 
-<!-- Add topology image here -->
-<!-- Example:
-![Lab Topology](./images/network-diagram.png)
--->
+[![Lab Topology](https://i.postimg.cc/FYLqpbhq/network-topology.png)](https://postimg.cc/FYLqpbhq)
 
 ## Technologies Used
 
@@ -101,6 +98,8 @@ I configured Cisco switches and router to send syslog messages to the SIEM serve
 - Link up / link down messages
 - Administrative shutdown events
 
+[![Cisco Syslog Events](https://i.postimg.cc/XrChLKns/cisco-syslog-events.png)](https://postimg.cc/XrChLKns)
+
 ### 2. Endpoint Visibility
 
 I installed Wazuh agents on both Windows and Ubuntu systems and confirmed they were actively sending logs.
@@ -112,6 +111,12 @@ This created visibility for:
 - Vulnerability data
 - Host-level activity relevant to investigations
 
+[![Wazuh Agents Active](https://i.postimg.cc/4Y9MPvJT/wazuh-agents-active.png)](https://postimg.cc/4Y9MPvJT)
+
+[![Windows Agent Summary](https://i.postimg.cc/PCwcybtX/windows-agent-summary.png)](https://postimg.cc/PCwcybtX)
+
+[![Ubuntu Agent Summary](https://i.postimg.cc/DSXD6Q2V/ubuntu-agent-summary.png)](https://postimg.cc/DSXD6Q2V)
+
 ### 3. Administrative Change Detection
 
 A new administrative user was created on the Windows client and successfully captured in the SIEM.
@@ -120,9 +125,15 @@ A new administrative user was created on the Windows client and successfully cap
 
 - Windows Security Event ID `4728`
 
+[![Windows Administrative Group Event](https://i.postimg.cc/3kv61jKK/windows-admin-group-event.png)](https://postimg.cc/3kv61jKK)
+
 ### 4. Power Outage / Availability Simulation
 
 I simulated outages by shutting down switch interfaces and disconnecting endpoints. These events were captured by the SIEM and supported with custom detection logic.
+
+[![Interface Administratively Down Detection](https://i.postimg.cc/68vScVBP/interface-admin-down-detection.png)](https://postimg.cc/68vScVBP)
+
+[![Interface Link Up Detection](https://i.postimg.cc/VJCTg9zH/interface-link-up-detection.png)](https://postimg.cc/VJCTg9zH)
 
 ### 5. Internal Reconnaissance Detection
 
@@ -148,9 +159,15 @@ I used Medusa to brute-force SSH logins against the router and both switches. De
 - Multiple `LOGIN_FAILED` events
 - Successful login events after repeated attempts
 
+[![Medusa SSH Brute Force Command](https://i.postimg.cc/CRqt7CwQ/medusa-ssh-bruteforce-command.png)](https://postimg.cc/CRqt7CwQ)
+
 ### 8. Vulnerability Visibility
 
 Wazuh’s vulnerability module identified software vulnerabilities on enrolled endpoints by correlating package and software inventory with known vulnerability sources.
+
+[![Vulnerability Analytics Charts](https://i.postimg.cc/tsxfkd9L/vulnerability-analytics-charts.png)](https://postimg.cc/tsxfkd9L)
+
+[![Vulnerability Dashboard Overview](https://i.postimg.cc/RWH8d1vk/vulnerability-dashboard-overview.png)](https://postimg.cc/RWH8d1vk)
 
 ## Key Challenges and How I Solved Them
 
