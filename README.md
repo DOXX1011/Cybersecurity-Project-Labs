@@ -27,16 +27,12 @@ I continuously grow through hands-on labs, cybersecurity projects, hackathons, a
 ### Network Security & Traffic Monitoring
 <div>
     <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
-    <img src="https://img.shields.io/badge/-pfSense-003366?&style=for-the-badge&logo=pfSense&logoColor=white" /> 
     <img src="https://img.shields.io/badge/-Security%20Onion-003366?&style=for-the-badge&logo=Security-Onion&logoColor=white" />
 </div>
 
 ### SIEM & Log Management
 <div>
     <img src="https://img.shields.io/badge/-Wazuh-0054A6?&style=for-the-badge&logo=Wazuh&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-ELK%20Stack-005571?&style=for-the-badge&logo=Elasticsearch&logoColor=white" />
 </div>
 
 ### Endpoint Detection & Response
